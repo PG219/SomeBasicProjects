@@ -1,0 +1,21 @@
+var xPos = 300;
+var yPos = 100;
+var x = 30;
+var y = 300;
+draw = function() {
+    background(29, 40, 115);
+    fill(255, 242, 0);
+    ellipse(xPos, yPos, 10, 10);
+    
+     fill(234, 0, 255);
+    ellipse(x, y, 10, 10);
+    
+    xPos +=2; 
+    yPos +=2;
+    
+    x +=2;
+    y-=2;
+};
+
+
+
